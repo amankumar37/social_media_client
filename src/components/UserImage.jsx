@@ -8,7 +8,7 @@ const UserImage = ({image,size = "60px"}) =>{
                width={size}
                height={size}
                alt="user"
-               src={`https://ill-pear-bear-wrap.cyclic.cloud/assets/${image}`}
+               src={`https://social-media-server-649u.onrender.com/assets/${image}`}
             />
         </Box>
     )

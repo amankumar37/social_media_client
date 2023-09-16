@@ -15,7 +15,7 @@ const FriendListWidget = ({userId}) => {
 
     const getFriends = async () => {
         const response = await fetch (
-            `https://ill-pear-bear-wrap.cyclic.cloud/users/${userId}/friends`,
+            `https://social-media-server-649u.onrender.com/users/${userId}/friends`,
             {
                 method:"GET",
                 headers: {Authorization: `Bearer ${token}`},
