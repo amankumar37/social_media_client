@@ -17,7 +17,7 @@ const ProfilePage = ()=>{
 
 
     const getUser = async () => {
-        const response = await fetch (`https://server-jp65.onrender.com/users/${userId}`,
+        const response = await fetch (`https://ill-pear-bear-wrap.cyclic.cloud/users/${userId}`,
            {
             method:"GET",
             headers: {Authorization: `Bearer ${token}`}

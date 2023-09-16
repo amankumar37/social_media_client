@@ -46,7 +46,7 @@ const MyPostWidget = ({ picturePath }) => {
             formData.append("picturePath", image.name);
         }
 
-        const response = await fetch(`https://server-jp65.onrender.com/posts`,{
+        const response = await fetch(`https://ill-pear-bear-wrap.cyclic.cloud/posts`,{
             method:"POST",
             headers: {Authorization: `Bearer ${token}`},
             body:formData,

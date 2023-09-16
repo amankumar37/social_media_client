@@ -65,7 +65,7 @@ const Form = () => {
           formData.append("picturePath", values.picture.name);
          
           const savedUserResponse = await fetch(
-            "https://server-jp65.onrender.com/auth/register",
+            "https://ill-pear-bear-wrap.cyclic.cloud/auth/register",
             {
                 method:"POST",
                 body:formData,
@@ -84,7 +84,7 @@ const Form = () => {
     const login = async (values, onSubmitProps) =>{
         // this will allow to send form info with image
           const loggedInResponse = await fetch(
-            "https://server-jp65.onrender.com/auth/login",
+            "https://ill-pear-bear-wrap.cyclic.cloud/auth/login",
             {
                 method:"POST",
                 headers:{"Content-Type": "application/json"},
